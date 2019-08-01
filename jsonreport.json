@@ -1,0 +1,117 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login and search product to purchase",
+        "description": "",
+        "id": "user-story-search-engine;login-and-search-product-to-purchase",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19511741400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens testmeapp in browser",
+            "match": {
+              "location": "StepDefCase3.user_opens_testmeapp_in_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5500105500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click sigin button",
+            "match": {
+              "location": "StepDefCase3.user_click_sigin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 378480100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user provide uname as \"manoshine\" and password as \"manoshinee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manoshine\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"manoshinee\"",
+                  "offset": 50
+                }
+              ],
+              "location": "StepDefCase3.user_provide_uname_as_and_password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1586843400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click Login button",
+            "match": {
+              "location": "StepDefCase3.user_click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 495291700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user searches for a particular product like headphones",
+            "match": {
+              "location": "StepDefCase3.user_search_product_by_giving_four_word_as_And_click_products()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 469890100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click find details button",
+            "match": {
+              "location": "StepDefCase3.user_click_find_details_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 789592500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user proceed to payment by addding product to the cart and clicks the Add To Cart button",
+            "match": {
+              "location": "StepDefCase3.user_proceed_to_payment_by_addding_product_to_the_cart_and_clicks_the_Add_To_Cart_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "User Story Search engine",
+    "description": "",
+    "id": "user-story-search-engine",
+    "keyword": "Feature",
+    "uri": "src/main/resources/CaseStudy1/CaseStudy3.feature",
+    "tags": []
+  }
+]
